@@ -214,4 +214,5 @@ __all__ = [
     "senate_trading_symbol",
     "senate_disclosure_rss",
     "senate_discloure_symbol",
+    "score",
 ]

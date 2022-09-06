@@ -466,8 +466,6 @@ def score(
 
     :param apikey: Your API key.
     :param symbol: Company ticker.
-    :param period: 'annual' or 'quarter'
-    :param limit: Number of rows to return.
     :return: A list of dictionaries.
     """
     path = f"score/{symbol}"
