@@ -468,7 +468,7 @@ def score(
     :param symbol: Company ticker.
     :return: A list of dictionaries.
     """
-    path = f"score/{symbol}"
+    path = f"score?symbol={symbol}"
     query_vars = {
         "apikey": apikey,
     }
