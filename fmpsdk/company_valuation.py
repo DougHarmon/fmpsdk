@@ -472,7 +472,7 @@ def score(
     query_vars = {
         "apikey": apikey,
     }
-    return __return_json_v3(path=path, query_vars=query_vars)
+    return __return_json_v4(path=path, query_vars=query_vars)
 
 
 
