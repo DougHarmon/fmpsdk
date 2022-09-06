@@ -47,6 +47,7 @@ from .company_valuation import (
     market_capitalization,
     press_releases,
     rating,
+    score,
     search,
     search_ticker,
     sec_filings,

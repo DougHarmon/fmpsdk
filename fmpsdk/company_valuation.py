@@ -457,6 +457,27 @@ def financial_ratios(
     return __return_json_v3(path=path, query_vars=query_vars)
 
 
+def score(
+    apikey: str,
+    symbol: str,
+) -> typing.Optional[typing.List[typing.Dict]]:
+    """
+    Query FMP /score/ API.
+
+    :param apikey: Your API key.
+    :param symbol: Company ticker.
+    :param period: 'annual' or 'quarter'
+    :param limit: Number of rows to return.
+    :return: A list of dictionaries.
+    """
+    path = f"score/{symbol}"
+    query_vars = {
+        "apikey": apikey,
+    }
+    return __return_json_v3(path=path, query_vars=query_vars)
+
+
+
 def enterprise_values(
     apikey: str,
     symbol: str,
