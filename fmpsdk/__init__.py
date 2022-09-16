@@ -53,6 +53,7 @@ from .company_valuation import (
     search_ticker,
     sec_filings,
     stock_news,
+    stock_peers,
     stock_screener,
     symbols_list,
 )
@@ -217,4 +218,5 @@ __all__ = [
     "senate_discloure_symbol",
     "score",
     "company_outlook",
+    "stock_peers",
 ]
