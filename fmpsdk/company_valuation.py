@@ -957,6 +957,18 @@ def stock_peers(apikey: str, symbol: str) -> typing.Optional[typing.List[typing.
     query_vars = {"apikey": apikey, "symbol": symbol}
     return __return_json_v4(path=path, query_vars=query_vars)
 
+def shares_float(apikey: str, symbol: str) -> typing.Optional[typing.List[typing.Dict]]:
+    """
+    Query FMP /stock_peers/ API
+    :param apikey: Your API key
+    :param symbol: Company ticker
+    :return: A list of dictionaries
+    """
+    path = f"shares_float"
+    query_vars = {"apikey": apikey, "symbol": symbol}
+    return __return_json_v4(path=path, query_vars=query_vars)
+
+
 
 def company_outlook(apikey: str, symbol: str) -> typing.Optional[typing.List[typing.Dict]]:
     """

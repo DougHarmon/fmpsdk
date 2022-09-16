@@ -52,6 +52,7 @@ from .company_valuation import (
     search,
     search_ticker,
     sec_filings,
+    shares_float,
     stock_news,
     stock_peers,
     stock_screener,
@@ -219,4 +220,5 @@ __all__ = [
     "score",
     "company_outlook",
     "stock_peers",
+    "shares_float",    
 ]
