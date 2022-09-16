@@ -23,6 +23,7 @@ from .company_valuation import (
     cash_flow_statement_as_reported,
     cash_flow_statement_growth,
     company_profile,
+    company_outlook,
     delisted_companies,
     discounted_cash_flow,
     earnings_surprises,
@@ -215,4 +216,5 @@ __all__ = [
     "senate_disclosure_rss",
     "senate_discloure_symbol",
     "score",
+    "company_outlook",
 ]
